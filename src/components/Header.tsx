@@ -4,12 +4,12 @@ import { Phone, Menu, X, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo-plasfran.png";
 
 const navLinks = [
-  { label: "Início", href: "#hero" },
-  { label: "Quem Somos", href: "#missao" },
-  { label: "Serviços", href: "#beneficios" },
-  { label: "Planos", href: "#planos" },
-  { label: "Contatos", href: "#footer" },
-  { label: "Vagas", href: "#footer" },
+  { label: "Início", href: "/#hero" },
+  { label: "Quem Somos", href: "/#missao" },
+  { label: "Serviços", href: "/#beneficios" },
+  { label: "Planos", href: "/#planos" },
+  { label: "Contatos", href: "/#footer" },
+  { label: "Vagas", href: "/vagas" },
 ];
 
 const Header = () => {
