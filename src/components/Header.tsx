@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Início", href: "/#hero" },
   { label: "Quem Somos", href: "/#missao" },
   { label: "Serviços", href: "/#beneficios" },
-  { label: "Planos", href: "/#planos" },
+  { label: "Planos", href: "/planos" },
   { label: "Contatos", href: "/#footer" },
   { label: "Vagas", href: "/vagas" },
 ];
