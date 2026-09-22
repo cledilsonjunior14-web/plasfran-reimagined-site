@@ -77,7 +77,7 @@ const LinkBio = () => {
                 className={`w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 ${
                   link.href.startsWith("http")
                     ? "bg-secondary/15 text-secondary"
-                    : "bg-primary-foreground/10 text-primary-foreground"
+                    : "bg-primary-foreground/15 text-primary-foreground"
                 }`}
               >
                 <link.icon className="w-5 h-5" />
@@ -100,7 +100,7 @@ const LinkBio = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.55 }}
-          className="mt-4 flex items-center justify-center gap-2 rounded-2xl border border-primary-foreground/20 text-primary-foreground/80 px-5 py-3.5 text-sm font-medium hover:bg-primary-foreground/5 transition-colors"
+          className="mt-4 flex items-center justify-center gap-2 rounded-2xl border border-primary-foreground/30 text-primary-foreground px-5 py-3.5 text-sm font-semibold hover:bg-primary-foreground/10 transition-colors"
         >
           <MessageCircle className="w-4 h-4" />
           Chamar no WhatsApp
